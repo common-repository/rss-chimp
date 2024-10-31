@@ -1,0 +1,98 @@
+/* ----------------------------------------------------------------------------
+ * Start
+ * ------------------------------------------------------------------------- */
+.kd-content p {font-size: 16px;}
+.kd-content .kd-btn a {text-decoration: none; padding: 15px 20px; font-size: 16px;  font-weight: 600; border-radius: 3px; text-transform: uppercase; letter-spacing: 1px; display: inline-block;}
+.kd-content .kd-btn a {background: #f26522; color: #ffffff}
+.kd-content .kd-btn a:hover {background: rgb(242 101 34 / 90%);}
+.kd-content #plugin-information-title.with-banner {background-size: cover; background-position: center;}
+a.kd-fivestar {color: #f26522; text-decoration: none;}
+
+
+/* ----------------------------------------------------------------------------
+ * General
+ * ------------------------------------------------------------------------- */
+.toplevel_page_rss-chimp > .wp-submenu {display: none !important;}
+
+
+/* ----------------------------------------------------------------------------
+ * Layout
+ * ------------------------------------------------------------------------- */
+.kd-content {margin-top: 15px;}
+.kd-sidebar {margin-top: 15px;}
+
+@media (max-width: 767.98px) {
+	.kd-content {width: 100%;}
+	.kd-sidebar {width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+	.kd-content {float: left; width: 65.5%;}
+	.kd-sidebar {float: right; width: 32.5%;}
+}
+
+@media (min-width: 1200px) {
+	.kd-content {float: left; width: 74.5%;}
+	.kd-sidebar {float: right; width: 24.5%;}
+}
+
+.kd-content .kd-panel, #fs_account .postbox {overflow: hidden; -webkit-box-sizing: border-box; box-sizing: border-box; min-height: 400px; margin-bottom: 20px; padding: 30px; box-shadow: 0 1px 1px rgb(0 0 0 / 4%); border-radius: 0; border: none; background: #fff;}
+
+.kd-content .kd-tabs-navigation {box-shadow: 0 1px 1px rgb(0 0 0 / 4%);}
+.kd-content .kd-tabs-navigation a {font-size: 15px; position: relative; display: block; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 11px 15px; text-decoration: none; color: #5b6065; outline: none; background: #f8f9fa; -webkit-box-shadow: none; box-shadow: none; -webkit-transition: 0.2s all linear; transition: 0.2s all linear;}
+.kd-content .kd-tabs-navigation a.active {color: #069de3; background: #fff; border-left: 3px solid;}
+
+@media (max-width: 767.98px) {
+    .kd-content .kd-tabs-navigation {width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    .kd-content .kd-tabs-navigation {width: 100%; display: table;}
+    .kd-content .kd-tabs-navigation a {float: left;}
+}
+
+@media (min-width: 1200px) {
+    .kd-content .kd-tabs-navigation {float: left; width: 200px;}
+}
+
+.tabcontent {display: none;}
+.tabcontent.first {display: block;}
+
+
+/* ----------------------------------------------------------------------------
+ * Sidebar
+ * ------------------------------------------------------------------------- */
+.kd-sidebar-item {box-shadow: 0 1px 1px rgba(0,0,0,.04); background-color: #ffffff; margin-bottom: 20px; font-size: 16px}
+.kd-sidebar-item h2 {background-color: #1d2327; color: #ffffff; position: relative; margin: 0 0 20px; padding: 20px; font-size:  1em; text-transform: uppercase; letter-spacing: 1px;}
+.kd-sidebar-item h2:after {position: absolute; content: ''; top: 100%; left: 20px; width: 0; height: 0; border-style: solid; border-width: 10px 10px 0 10px; border-color: #1d2327 transparent transparent;}
+.kd-sidebar-item p {margin: 0 0 10px; padding: 0 20px; font-size: 14px;}
+.kd-sidebar-item ul {margin: 0 0 0 20px; padding: 0 20px 0 20px; list-style: outside; font-size: 0.9em;}
+.kd-sidebar-item ul li {margin-bottom: 10px;}
+/* Buttons */
+.kd-sidebar-item .kd-btn, .kd-sidebar-item .kd-btn-group {text-align: center; height: 68px; padding: 0 20px;}
+.kd-sidebar-item .kd-btn a, .kd-sidebar-item .kd-btn-group a {background:#1d2327; color: #ffffff; text-decoration: none; padding: 15px 20px; font-size: 0.8em;  font-weight: 600; border-radius: 3px; text-transform: uppercase; letter-spacing: 1px; display: inline-block;}
+.kd-sidebar-item .kd-btn a:hover, .kd-sidebar-item .kd-btn-group a:hover {background: rgb(28 34 38 / 90%);}
+.kd-sidebar-item .kd-btn-group > a + a {margin-left:20px;}
+.kd-sidebar-item#upgrade .kd-btn a {background: #f26522;}
+.kd-sidebar-item#upgrade .kd-btn a:hover {background: rgb(242 101 34 / 90%);}
+/* Upgrade */
+.kd-sidebar-item#upgrade {padding: 0; text-align: left;}
+.kd-sidebar-item#upgrade * {-webkit-box-sizing: border-box; box-sizing: border-box; -webkit-transition: all 0.25s ease-out; transition: all 0.25s ease-out;}
+.kd-sidebar-item#upgrade h2 {background-color: #f26522;}
+.kd-sidebar-item#upgrade h2:after {border-color: #f26522 transparent transparent;}
+.kd-sidebar-item#upgrade ul li::marker {color: #f26522;}
+/* Support */
+.kd-sidebar-item#support {padding-bottom: 20px;}
+/* Rate */
+.rate i {color: #f26522; text-shadow: #f26522 0 0 5px;}
+
+/* ----------------------------------------------------------------------------
+ * Form fields
+ * ------------------------------------------------------------------------- */
+ .kd-content label {font-weight: bold; margin-bottom: 5px;}
+ .kd-content input[type="text"],  .kd-content input[type="number"], .kd-content select, .kd-content textarea {padding: 10px; border-radius: 5px; border: 1px solid #ccc; width: 100%; max-width: 25rem; box-sizing: border-box;}
+ .kd-content input[type="checkbox"] {width: 30px; height: 30px;}
+ .kd-content input[type=checkbox]:checked::before {content: ""; margin: 0px; height: 20px; width: 20px; background: #1d2327; top: 4px; left: 4px; position: relative;}
+ .kd-content textarea {min-height: 100px; resize: none}
+ .kd-content .kd-media-reset-button {margin-left: 10px;}
+ .kd-content .kd-media-select-img {max-width: 200px; display: block; margin-top: 10px;}

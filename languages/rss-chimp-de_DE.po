@@ -1,0 +1,807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-02-02 22:20+0100\n"
+"PO-Revision-Date: 2024-02-02 22:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: freemius\n"
+
+#: admin/class-rss-chimp-admin.php:95 admin/class-rss-chimp-admin.php:96
+#: admin/class-rss-chimp-admin.php:103 admin/class-rss-chimp-admin.php:104
+msgid "RSS Chimp"
+msgstr "RSS Chimp"
+
+#: admin/class-rss-chimp-admin.php:132
+msgid "Feed channel options"
+msgstr "Feed-Kanal-Optionen"
+
+#: admin/class-rss-chimp-admin.php:139
+msgid "Preferred logo"
+msgstr "Bevorzugtes Logo"
+
+#: admin/class-rss-chimp-admin.php:149
+msgid "Custom logo"
+msgstr "Benutzerdefiniertes Bild"
+
+#: admin/class-rss-chimp-admin.php:159
+msgid "Copyright"
+msgstr "Copyright"
+
+#: admin/class-rss-chimp-admin.php:169
+msgid "Editor"
+msgstr "Redaktion"
+
+#: admin/class-rss-chimp-admin.php:179
+msgid "Webmaster"
+msgstr "Webmaster"
+
+#: admin/class-rss-chimp-admin.php:194
+msgid "Feed delay"
+msgstr "Feed-Verzögerung"
+
+#: admin/class-rss-chimp-admin.php:201
+msgid "Status"
+msgstr "Status"
+
+#: admin/class-rss-chimp-admin.php:211
+msgid "Delay"
+msgstr "Verzögerung"
+
+#: admin/class-rss-chimp-admin.php:225
+msgid "Thumbnail options"
+msgstr "Thumbnail Optionen"
+
+#: admin/class-rss-chimp-admin.php:231
+msgid "RSS Chimp Small"
+msgstr "RSS Chimp Klein"
+
+#: admin/class-rss-chimp-admin.php:242
+msgid "RSS Chimp Medium"
+msgstr "RSS Chimp Mittel"
+
+#: admin/class-rss-chimp-admin.php:255
+msgid "Other options"
+msgstr "Sonstige Optionen"
+
+#: admin/class-rss-chimp-admin.php:262
+msgid "Deactivate comments feed"
+msgstr "Kommentar-Feed deaktivieren"
+
+#: admin/class-rss-chimp-admin.php:274
+msgid "Hide WordPress version from all feeds"
+msgstr "Version von WordPress verstecken"
+
+#: admin/class-rss-chimp-admin.php:286
+msgid "Reset all options on deactivation"
+msgstr "Beim Deaktivieren des Plugins alle Einstellungen zurücksetzen"
+
+#: admin/class-rss-chimp-admin.php:297
+#: admin/partials/rss-chimp-admin-display.php:77
+msgid "Default feed"
+msgstr "Standard-Feed"
+
+#: admin/class-rss-chimp-admin.php:304
+msgid "Disable default feeds"
+msgstr "Standard-Feed deaktivieren"
+
+#: admin/class-rss-chimp-admin.php:314
+msgid "Image size for the default WordPress feed"
+msgstr "Bildgröße für den Standard-WordPress-Feed"
+
+#: admin/class-rss-chimp-admin.php:324 admin/class-rss-chimp-admin.php:432
+msgid "Also add image with enclosure tag to the feed"
+msgstr "Beitragsbild auch mit dem enclosure tag zum Feed hinzufügen"
+
+#: admin/class-rss-chimp-admin.php:334 admin/class-rss-chimp-admin.php:442
+msgid "Include the title of the featured image"
+msgstr "Titel des Beitragsbilds einfügen"
+
+#: admin/class-rss-chimp-admin.php:344 admin/class-rss-chimp-admin.php:452
+msgid "Include the description of the featured image"
+msgstr "Beschreibung des Beitragsbilds einfügen"
+
+#: admin/class-rss-chimp-admin.php:357 admin/class-rss-chimp-admin.php:472
+msgid "Custom HTML before each RSS item"
+msgstr "HTML vor jedem RSS-Eintrag"
+
+#: admin/class-rss-chimp-admin.php:367 admin/class-rss-chimp-admin.php:482
+msgid "Custom HTML after each RSS item"
+msgstr "HTML nach jedem RSS-Eintrag"
+
+#: admin/class-rss-chimp-admin.php:380 admin/class-rss-chimp-admin.php:492
+msgid "URL parameter"
+msgstr "URL-Parameter"
+
+#: admin/class-rss-chimp-admin.php:395
+#: admin/partials/rss-chimp-admin-display.php:78
+msgid "Custom feed"
+msgstr "Benutzerdefinierter Feed"
+
+#: admin/class-rss-chimp-admin.php:402
+msgid "Enable custom feed"
+msgstr "Benutzerdefinierten Feed aktivieren"
+
+#: admin/class-rss-chimp-admin.php:412
+msgid "Custom feed slug"
+msgstr "Slug des benutzerdefinierten Feeds"
+
+#: admin/class-rss-chimp-admin.php:422
+msgid "Image size for the custom feed"
+msgstr "Bildgröße für den benutzerdefinierten Feed"
+
+#: admin/class-rss-chimp-admin.php:462
+msgid "For each post in a feed, include"
+msgstr "Füge für jeden Beitrag in einem Feed Folgendes hinzu"
+
+#: admin/class-rss-chimp-admin.php:559
+msgid ""
+"Here you can customize the default WordPress feed and set the size of the "
+"attached image."
+msgstr ""
+"Hier kannst Du den Standard-WordPress-Feed anpassen und die Größe des "
+"angehängten Bildes festlegen."
+
+#: admin/class-rss-chimp-admin.php:564
+#, php-format
+msgid ""
+"<a href=\"%1$s\">Upgrade to pro</a> for all image sizes and many more "
+"features."
+msgstr ""
+"<a href=\"%1$s\">Aktualisiere</a> auf die Pro-Version, um mehr Bildgrößen "
+"und weitere nützliche Features freizuschalten."
+
+#: admin/class-rss-chimp-admin.php:576
+msgid ""
+"Here you can create an additional feed specially for your newsletter "
+"automation, Google News or any other third party services."
+msgstr ""
+"Hier kannst Du einen zusätzlichen Feed speziell für Deine Newsletter-"
+"Automatisierung, Google News oder andere Dienste von Drittanbietern "
+"erstellen."
+
+#: admin/class-rss-chimp-admin.php:587 admin/class-rss-chimp-admin.php:640
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: admin/class-rss-chimp-admin.php:588
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/class-rss-chimp-admin.php:589
+msgid "Site logo"
+msgstr "Seitenlogo"
+
+#: admin/class-rss-chimp-admin.php:590
+msgid "Custom image"
+msgstr "Benutzerdefiniertes Bild"
+
+#: admin/class-rss-chimp-admin.php:601
+msgid "Select logo"
+msgstr "Logo auswählen"
+
+#: admin/class-rss-chimp-admin.php:602
+msgid "Remove logo"
+msgstr "Logo entfernen"
+
+#: admin/class-rss-chimp-admin.php:612
+msgid "&copy 2022, Company name"
+msgstr "&copy 2022, Company name"
+
+#: admin/class-rss-chimp-admin.php:621
+msgid "johnny@example.com (Johnny Controletti)"
+msgstr "johnny@example.com (Johnny Controletti)"
+
+#: admin/class-rss-chimp-admin.php:630
+msgid "jane@example.com (Jane Controletti)"
+msgstr "jane@example.com (Jane Controletti)"
+
+#: admin/class-rss-chimp-admin.php:641
+msgid "Enabled"
+msgstr "Aktiviert"
+
+#: admin/class-rss-chimp-admin.php:657
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: admin/class-rss-chimp-admin.php:658
+msgid "Minutes"
+msgstr "Minuten"
+
+#: admin/class-rss-chimp-admin.php:659
+msgid "Hours"
+msgstr "Stunden"
+
+#: admin/class-rss-chimp-admin.php:660
+msgid "Days"
+msgstr "Tage"
+
+#: admin/class-rss-chimp-admin.php:661
+msgid "Weeks"
+msgstr "Wochen"
+
+#: admin/class-rss-chimp-admin.php:662
+msgid "Months"
+msgstr "Monate"
+
+#: admin/class-rss-chimp-admin.php:663
+msgid "Years"
+msgstr "Jahre"
+
+#: admin/class-rss-chimp-admin.php:890
+msgid "Summary"
+msgstr "Kurzfassung"
+
+#: admin/class-rss-chimp-admin.php:895
+msgid "Full text"
+msgstr "Ganzen Text"
+
+#: admin/class-rss-chimp-admin.php:1202
+msgid ""
+"Warning: You have chosen the site favicon as the default RSS channel image, "
+"but it is not set."
+msgstr ""
+"Warnung: Du hast das Favicon der Seite als Standard-RSS-Kanalbild gewählt, "
+"aber es ist keines eingestellt."
+
+#: admin/class-rss-chimp-admin.php:1207
+msgid ""
+"Error: You have chosen the site favicon as the default RSS channel image, "
+"but your template does not support a favicon."
+msgstr ""
+"Fehler: Du hast das Favicon der Seite als Standard-RSS-Kanalbild gewählt, "
+"aber deine Template unterstützt kein Favicon."
+
+#: admin/class-rss-chimp-admin.php:1215
+msgid ""
+"Warning: You have chosen the site logo as the default RSS channel image, but "
+"it is not set."
+msgstr ""
+"Warnung: Du hast das Seitenlogo als Standard-RSS-Kanalbild gewählt, aber es "
+"ist keines eingestellt."
+
+#: admin/class-rss-chimp-admin.php:1220
+msgid ""
+"Error: You have chosen the site logo as the default RSS channel image, but "
+"your template does not support a site logo."
+msgstr ""
+"Fehler: Du hast das Seitelogo als Standard-RSS-Kanalbild gewählt, aber deine "
+"Vorlage unterstützt kein Seitenlogo."
+
+#: admin/class-rss-chimp-admin.php:1227
+msgid ""
+"Warning: You have chosen a custom image as the default RSS channel image, "
+"but it is not set."
+msgstr ""
+"Warnung: Du hast ein benutzerdefiniertes Bild als Standard-RSS-Kanalbild "
+"gewählt, aber keines eingestellt."
+
+#: admin/partials/rss-chimp-admin-display.php:36
+msgid "Start"
+msgstr "Start"
+
+#: admin/partials/rss-chimp-admin-display.php:38
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/partials/rss-chimp-admin-display.php:39
+msgid "Feeds"
+msgstr "Feeds"
+
+#: admin/partials/rss-chimp-admin-display.php:49
+msgid "RSS Chimp — Featured images in RSS feed"
+msgstr "RSS Chimp — Featured images im RSS-Feed"
+
+#: admin/partials/rss-chimp-admin-display.php:50
+msgid "How to use RSS Chimp"
+msgstr "Wie Du mit RSS Chimp loslegst"
+
+#: admin/partials/rss-chimp-admin-display.php:51
+msgid ""
+"Thank you for installing RSS Chimp. The plugin automatically adds featured "
+"images to your RSS feed after activating the plugin when a new blog post is "
+"finished."
+msgstr ""
+"Vielen Dank, dass Du RSS Chimp installiert hast. Das Plugin fügt nach der "
+"Aktivierung automatisch Beitragsbilder zu Deinem RSS-Feed hinzu."
+
+#: admin/partials/rss-chimp-admin-display.php:52
+#, php-format
+msgid ""
+"If you have troubles with the plugin please check out the <a href=\"%1$s?"
+"utm_source=plugin&utm_medium=link&utm_campaign=rss.chimp&utm_term=wp-tab-"
+"start\" target=\"_blank\">\"Getting Started Guide\"</a> and have a look at "
+"the <a href=\"%2$s?utm_source=plugin&utm_medium=link&utm_campaign=rss."
+"chimp&utm_term=wp-tab-start\" target=\"_blank\">documentation</a>."
+msgstr ""
+"Wenn Du Probleme mit dem Plugin hast, beachte bitte den <a href=\"%1$s?"
+"utm_source=plugin&utm_medium=link&utm_campaign=rss.chimp&utm_term=wp-tab-"
+"start\" target=\"_blank\">\"Getting Started Guide\"</a> und die <a "
+"href=\"%2$s?utm_source=plugin&utm_medium=link&utm_campaign=rss."
+"chimp&utm_term=wp-tab-start\" target=\"_blank\">Dokumentation</a>."
+
+#: admin/partials/rss-chimp-admin-display.php:53
+#: admin/partials/rss-chimp-admin-sidebar.php:28
+msgid "Do you like RSS Chimp?"
+msgstr "Gefällt Dir das Plugin?"
+
+#: admin/partials/rss-chimp-admin-display.php:54
+msgid "If you like RSS Chimp, please take a minute to rate it on WordPress.org"
+msgstr ""
+"Wenn dir RSS Chimp gefällt, dann nimm dir bitte eine Minute Zeit, um es auf "
+"WordPress.org zu bewerten"
+
+#: admin/partials/rss-chimp-admin-display.php:55
+#, php-format
+msgid ""
+"You can support the development of the free version of RSS Chimp and make a "
+"contribution on <a target=\"_blank\" href=\"%1$s\">Buy Me a Coffee</a>."
+msgstr ""
+"Du kannst die Entwicklung der kostenlosen Version von RSS Chimp mit einem "
+"Beitrag auf <a target=\"_blank\" href=\"%1$s\">Buy Me a Coffee </a> "
+"unterstützen."
+
+#: admin/partials/rss-chimp-admin-display.php:89
+#: admin/partials/rss-chimp-admin-display.php:98
+msgid "Validate your feed with the W3C Feed Validation Service: "
+msgstr ""
+"Überprüfen den Syntax der RSS-Feeds mit dem W3C Feed Validation Service: "
+
+#: admin/partials/rss-chimp-admin-display.php:89
+msgid "Validate default feed"
+msgstr "Standard-Feed überprüfen"
+
+#: admin/partials/rss-chimp-admin-display.php:98
+msgid "Validate custom feed"
+msgstr "Benutzerdefinierten Feed überprüfen"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:7
+msgid "Update to RSS Chimp Pro and unlock awesome features"
+msgstr "Wechsle zu RSS Chimp Pro und schalte fantastische Funktionen frei"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:9
+msgid "Create an additional RSS feed for our site"
+msgstr "Erstelle einen zusätzlichen RSS Feed"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:10
+msgid "Select from all registered image sizes"
+msgstr "Wählen aus allen registrierten Bildgrößen"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:11
+msgid "Add custom HTML before/after feed items"
+msgstr "Hinzufügen von HTML vor/nach jedem Feed-Eintrag"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:12
+msgid "Delay the publication of new posts in the feed"
+msgstr "Verzögere das Veröffentlichen von neuen Beiträgen im Feed"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:13
+msgid "Change the additional feeds permalink"
+msgstr "Passe den Permalink des zusätzlichen Feeds an"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:14
+msgid "Define length of the posts in the custom feed"
+msgstr "Definieren die Länge der Beiträge im benutzerdefinierten Feed"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:15
+msgid "Hide WordPress version from the feed"
+msgstr "Version von WordPress im Feed verstecken"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:17
+msgid "Upgrade now"
+msgstr "Jetzt upgraden"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:22
+msgid "Houston, we have a problem!"
+msgstr "Houston, wir haben ein Problem!"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:23
+#, php-format
+msgid ""
+"Have you checked out the <a target=\"_blank\" href=\"%1$s\">documentation</"
+"a>?"
+msgstr ""
+"Hast Du schon einen Blick in die <a target=\"_blank\" "
+"href=\"%1$s\">Dokumentation</a> geworfen?"
+
+#: admin/partials/rss-chimp-admin-sidebar.php:24
+#, php-format
+msgid ""
+"If you still have troubles with RSS Chimp please use the <a "
+"target=\"_blank\" href=\"%1$s\">forum</a>."
+msgstr ""
+"Wenn Du noch immer Probleme mit RSS Chimp hast, benutze bitte das <a "
+"target=\"_blank\" href=\"%1$s\">Forum</a>."
+
+#: admin/partials/rss-chimp-admin-sidebar.php:29
+#, php-format
+msgid ""
+"Support RSS Chimp and give the plugin a <a target=\"_blank\" "
+"href=\"%1$s\">five-star rating in the WordPress.org repository</a>."
+msgstr ""
+"Unterstütze RSS Chimp und gib dem Plugin eine <a target=\"_blank\" "
+"href=\"%1$s\">Fünf-Sterne-Bewertung im WordPress.org Repository</a>."
+
+#~ msgid "Jane Doe (jane@example.com)"
+#~ msgstr "Jane Doe (jane@example.com"
+
+#~ msgid "John Doe (john@example.com)"
+#~ msgstr "John Doe (john@example.com)"
+
+#~ msgid "Feed Validation"
+#~ msgstr "RSS Feed validieren"
+
+#~ msgid "Get RSS Chimp Pro"
+#~ msgstr "Wechsle zu RSS Chimp Pro"
+
+#~ msgid "Create an extra feed with additional image sizes"
+#~ msgstr "Erstelle einen weiteren Feed mit speziellen Bildgrößen"
+
+#~ msgid "Change the permalink of the custom feed"
+#~ msgstr "Ändere den Link des benutzerdefinierten Feeds"
+
+#~ msgid "Premium support via email"
+#~ msgstr "Premium Support via E-Mail"
+
+#~ msgid ""
+#~ "Sign up for a paid Mailchimp plan and earn $30 bill credits for free!"
+#~ msgstr "Entscheide Dich für Mailchimp und erhalte $30 als Gutschrift!"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "Erforderliche Plugins installieren"
+
+#~ msgid "Install Plugins"
+#~ msgstr "Plugins installieren"
+
+#, php-format
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "Installiere Plugin: %s"
+
+#, php-format
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "Aktualisiere Plugin: %s"
+
+#~ msgid "Something went wrong with the plugin API."
+#~ msgstr "Mit der Plugin API ist etwas schief gelaufen."
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "Zurück zum Installer"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "Zurück zum Dashboard"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "Plugin erfolgreich aktiviert."
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgstr "Folgendes Plugin wurde erfolgreich aktiviert:"
+
+#, php-format
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "Keine Akion ausgeführt. Das Plugin %1$s war bereits aktiv."
+
+#, php-format
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "Plugin nicht aktiviert. Eine höhere Version von %s ist für diese Theme "
+#~ "erforderlich. Bitte aktualisiere das Plugin."
+
+#, php-format
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "Alle Plugins erfolgreich installiert und aktiviert. %1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "Info ausblenden"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr ""
+#~ "Es gibt ein oder mehrere erforderliche bzw. empfohlene Plugins zur "
+#~ "Installation, Aktualisierung oder Aktivierung."
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr ""
+#~ "Bitte wende Dich an den Administrator dieser Website, um Hilfe zu "
+#~ "erhalten."
+
+#, php-format
+#~ msgid "TGMPA v%s"
+#~ msgstr "TGMPA v%s"
+
+#~ msgid "Required"
+#~ msgstr "Erforderlich"
+
+#~ msgid "Recommended"
+#~ msgstr "Empfohlen"
+
+#~ msgid "WordPress Repository"
+#~ msgstr "WordPress Repository"
+
+#~ msgid "External Source"
+#~ msgstr "Externe Quelle"
+
+#~ msgid "Pre-Packaged"
+#~ msgstr "Pre-Packaged"
+
+#~ msgid "Not Installed"
+#~ msgstr "Nicht installiert"
+
+#~ msgid "Installed But Not Activated"
+#~ msgstr "Installiert, aber nicht aktiv"
+
+#~ msgid "Active"
+#~ msgstr "Aktiv"
+
+#~ msgid "Required Update not Available"
+#~ msgstr "Erforderliches Update ist nicht verfügbar"
+
+#~ msgid "Requires Update"
+#~ msgstr "Update erforderlich"
+
+#~ msgid "Update recommended"
+#~ msgstr "Update empfohlen"
+
+#~ msgid "Installed version:"
+#~ msgstr "Installierte Version:"
+
+#~ msgid "Minimum required version:"
+#~ msgstr "Erforderliche Version:"
+
+#~ msgid "Available version:"
+#~ msgstr "Verfügbare Version:"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Source"
+#~ msgstr "Quelle"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#, php-format
+#~ msgid "Install %2$s"
+#~ msgstr "Installiere %2$s"
+
+#, php-format
+#~ msgid "Update %2$s"
+#~ msgstr "Aktualisiere %2$s"
+
+#, php-format
+#~ msgid "Activate %2$s"
+#~ msgstr "Aktiviere %2$s"
+
+#~ msgid "Install"
+#~ msgstr "Installieren"
+
+#~ msgid "Update"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Activate"
+#~ msgstr "Aktivieren"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr ""
+#~ "Es wurden keine Plugins für die Installation ausgewählt. Keine Aktion "
+#~ "durchgeführt."
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr ""
+#~ "Es wurden keine Plugins für die Aktivierung ausgewählt. Keine Aktion "
+#~ "durchgeführt."
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "Keine Plugins zum Installieren verfügbar."
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr "Keine Plugins zum Aktualisieren verfügbar."
+
+#~ msgid "Plugin activation failed."
+#~ msgstr "Aktivieren des Plugins fehlgeschlagen."
+
+#, php-format
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Aktualisiere Plugin %1$s (%2$d/%3$d)"
+
+#, php-format
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr ""
+#~ "Es ist ein Fehler bei der Installation von %1$s aufgetreten: "
+#~ "<strong>%2$s</strong>."
+
+#, php-format
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr ""
+#~ "Beginne mit dem Installieren und Aktivieren. Bitte habe etwas Geduld, "
+#~ "dieser Vorgang kann bei einigen Hosts eine Weile dauern."
+
+#, php-format
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr "Installieren und aktivieren abgeschlossen."
+
+#, php-format
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Installiere und aktiviere Plugin %1$s (%2$d/%3$d)"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr ""
+#~ "Der Installationsprozess beginnt. Bitte habe etwas Geduld, dieser Vorgang "
+#~ "kann bei einigen Hosts eine Weile dauern."
+
+#~ msgid "All installations have been completed."
+#~ msgstr "Alle Installationen wurden ausgeführt."
+
+#, php-format
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#~ msgid "Delay new posts from appearing in your feeds"
+#~ msgstr "Verzögere das das Erscheinen neuer Beiträge im Feed"
+
+#, php-format
+#~ msgid ""
+#~ "Thanks for using RSS Chimp! <a href=\"%1$s\" target=\"_blank\">Here</a> "
+#~ "you can find out how to get started."
+#~ msgstr ""
+#~ "Danke, dass Du RSS Chimp nutzt! <a href=\"%1$s\" target=\"_blank\">Hier</"
+#~ "a> erfährst Du, wie Du losstartest."
+
+#, php-format
+#~ msgid ""
+#~ "<a href=\"%1$s\">Opt in your plugin</a> and unlock more image sizes for "
+#~ "free. <a href=\"%2$s\">Upgrade to pro</a> for all image sizes and many "
+#~ "more features."
+#~ msgstr ""
+#~ "<a href=\"%1$s\">Registriere dieses Plugin</a> und Du erhältst kostenlos "
+#~ "weitere Bildgrößen. <a href=\"%2$s\">Aktualisiere </a> auf die Pro-"
+#~ "Version, um alle Bildgrößen und weitere nützliche Features freizuschalten."
+
+#~ msgid "Add a custom feed with images"
+#~ msgstr "Erstelle einen zusätzlichen Feed mit Bildern"
+
+#~ msgid "Only for the real chimpions!"
+#~ msgstr "Für echte Chimpions!"
+
+#~ msgid "Unlock more image sizes"
+#~ msgstr "Mehr Bildgrößen freischalten"
+
+#~ msgid "Upgrade RSS Chimp"
+#~ msgstr "Wechsle zu RSS Chimp Pro"
+
+#, php-format
+#~ msgid ""
+#~ "To determine the number of posts in the default feed and their desired "
+#~ "lenght please go to <a href=\"%1$s\">Settings > Reading</a>."
+#~ msgstr ""
+#~ "Unter <a href=\"%1$s\">Einstellungen > Lesen</a> kannst Du die Anzahl der "
+#~ "Beiträge im Standard-Feed und deren gewünschte Länge zu bestimmen."
+
+#~ msgid "Activate your licence"
+#~ msgstr "Lizenz aktivieren"
+
+#~ msgid "Remove WordPress version from all feeds"
+#~ msgstr "Version von WordPress in allen Feeds verstecken"
+
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#~ msgid "Adminion"
+#~ msgstr "Adminion"
+
+#~ msgid "Appearance & Functionalities"
+#~ msgstr "Aussehen & Funktionen"
+
+#~ msgid "Admin bar"
+#~ msgstr "Werkzeugleiste"
+
+#~ msgid "Admin widgets"
+#~ msgstr "Admin Widgets"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Verschiedenes"
+
+#~ msgid "Developer"
+#~ msgstr "Entwickler"
+
+#~ msgid "Verification"
+#~ msgstr "Verifizierung"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Bing"
+#~ msgstr "Bing"
+
+#~ msgid "Yandex"
+#~ msgstr "Yandex"
+
+#~ msgid "Baidu"
+#~ msgstr "Baidu"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Brave"
+#~ msgstr "Brave"
+
+#~ msgid "At a Glance"
+#~ msgstr "Auf einen Blick"
+
+#~ msgid "QuickDraft"
+#~ msgstr "Schneller Entwurf"
+
+#~ msgid "WordPress Events and News"
+#~ msgstr "WordPress-Veranstaltungen und Neuigkeiten"
+
+#~ msgid "Welcome panel"
+#~ msgstr "Willkommen"
+
+#~ msgid "Elementor"
+#~ msgstr "Elementor"
+
+#~ msgid "Deselect all"
+#~ msgstr "Alle abwählen"
+
+#~ msgid "System information"
+#~ msgstr "Systeminformation"
+
+#, php-format
+#~ msgid ""
+#~ "If you like this plugin give it <a target=\"_blank\" href=\"%1$s\">a 5* "
+#~ "rating</a> and <a target=\"_blank\" href=\"%2$s\">buy me a coffee</a>. "
+#~ "Thanks!"
+#~ msgstr ""
+#~ "Wenn Dir dieses Plugin gefällt, dann gib ihm eine <a target=\"_blank\" "
+#~ "href=\"%1$s\"> 5* Bewertung</a> oder <a target=\"_blank\" "
+#~ "href=\"%2$s\">spendiere einen Kaffee</a>. Danke!"
+
+#~ msgid "Buy me a coffee"
+#~ msgstr "Spendiere einen Kaffee"
+
+#~ msgid "Download system info"
+#~ msgstr "Systeminformation downloaden"
+
+#~ msgid "Frontend"
+#~ msgstr "Frontend"
+
+#~ msgid "Appearance"
+#~ msgstr "Erscheinungsbild"
+
+#~ msgid "Adapt the feeds created by WordPress to your needs."
+#~ msgstr "Passen die von WordPress erstellten Feeds an Deine Bedürfnisse an."
+
+#~ msgid "Do you need help?"
+#~ msgstr "Brauchst Du Hilfe?"
+
+#, php-format
+#~ msgid ""
+#~ "On the <a href=\"%1$s\">support page</a> you find answers to frequently "
+#~ "asked question and the most common issues."
+#~ msgstr ""
+#~ "Auf der <a href=\"%1$s\">Support-Seite</a> findest Du Antworten zu oft "
+#~ "gestellten Fragen und den häufigsten Problemen."
